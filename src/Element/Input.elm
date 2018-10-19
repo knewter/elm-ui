@@ -161,7 +161,7 @@ The `onPress` handler will be fired either `onClick` or when the element is focu
     import Element.Input as Input
 
     Input.button []
-        { onPress = ClickMsg
+        { onPress = Just ClickMsg
         , label = text "My Button"
         }
 
